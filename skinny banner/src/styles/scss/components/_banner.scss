@@ -1,0 +1,272 @@
+%banner-base {
+	overflow: hidden;
+	padding: 0 20px;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+%text-base {
+	float: left;
+	line-height: 1;
+}
+%shadow {
+	box-shadow: 0 2px 4px 0 #A9A9A9;
+}
+%button-base {
+	float: right;
+	min-width: 200px;
+	border: 1px solid;
+	border-radius: 28px;
+	padding: 16px 26px;
+	text-align: center;
+	margin: 14px 10px;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+%center-text {
+	float: none;
+	text-align: center;
+}
+
+.s-banner {
+	background: #fff;
+
+	&-container {
+		@extend %banner-base;
+
+		@include respond-to(breakpoint(padP)) {
+			width: 100%;
+		}
+	}
+	color: #333;
+
+	&.has-shadow {
+		@extend %shadow;
+	}
+
+	&.has-border {
+		border-bottom: 1px solid darken($gray, 10%);
+		border-top: 1px solid darken($gray, 10%);
+
+		&_bottom{
+			border-bottom: 1px solid darken($gray, 10%);
+		}
+
+		&_top {
+			border-top: 1px solid darken($gray, 10%);
+		}
+	}
+
+	&._fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 700;
+	}
+
+	.btn {
+		@extend %button-base;
+		background:$blue-sky;
+		border-color: $blue-sky;
+		color: #fff; 
+
+		&:hover {
+			background: $blue-ocean;
+			border-color: $blue-ocean;
+		}
+
+		@include respond-to(breakpoint(padL)){
+			float: none;
+		 	margin: 0 auto 26px;
+		 	display: block;
+		 	width: 25%;
+		}
+
+		&-ghost {
+			border-color: #000;
+			color: #000;
+			background: transparent;
+
+			&:hover {
+				background: transparent;
+				border-color: $blue-ocean;
+				color: $blue-ocean;
+			}
+
+			&_blue {
+				color: $blue-sky;
+				border-color: $blue-sky;
+				background: transparent;
+
+				&:hover {
+					background: transparent;
+					border-color: $blue-ocean;
+					color: $blue-ocean;
+				}
+			}
+		}
+
+		&-blank {
+			border-color: transparent;
+			background: transparent;
+			color: $blue-sky;
+			margin: 12px 10px 0px;
+			padding: 14px 0 0;
+			min-width: 0;
+
+			&:hover {
+				text-decoration: underline;
+				color: $blue-ocean;
+				background: transparent;
+				border: none;
+			}
+		}
+
+		@include respond-to(breakpoint(padL)) {
+		    margin: 12px auto 26px;
+		}
+	}
+
+	&_black {
+		background: #000;
+		color: #fff;
+
+		h2,h3{
+			color: #fff;
+		}
+
+		.btn {
+			background: $blue-deep;
+			border-color: $blue-deep;
+			color: #fff;
+
+			&-ghost{
+				color: #fff;
+				border-color: #fff;
+				background: transparent;
+
+				&_blue {
+					color: $blue-genie;
+					border-color: $blue-genie;
+					background: transparent;
+				}
+			}
+
+			&-blank {
+				color: $blue-genie;
+				border-color: transparent;
+				min-width: 0;
+				background: transparent;
+
+				&:hover {
+					text-decoration: underline;
+					color: $blue-ocean;
+					background: transparent;
+					border: none;
+				}
+			}
+		}
+
+		&.has-shadow {
+			@extend %shadow;
+		}
+	}
+
+	&_gray {
+		background: $gray;
+		color: #000;
+
+		&.has-shadow {
+			@extend %shadow;
+		}
+
+		.btn {
+			background:$blue-sky;
+			border-color: $blue-sky;
+			color: #fff; 
+
+			&:hover {
+				background: $blue-ocean;
+				border-color: $blue-ocean;
+			}
+
+			&-ghost {
+				border-color: #000;
+				color: #000;
+				background: transparent;
+
+				&:hover {
+					background: transparent;
+				}
+
+				&_blue {
+					background: transparent;
+					color: $blue-sky;
+
+					&:hover {
+						background: transparent;
+						color: $blue-ocean;
+					}
+				}
+			}
+
+			&-blank {
+				border-color: transparent;
+				color: $blue-sky;
+				min-width: 0;
+				background: transparent;
+
+				&:hover {
+					text-decoration: underline;
+					background: transparent;
+					color: $blue-ocean;
+					border: none;
+				}
+			}
+		}
+	}
+
+
+	&_text {
+		font-size: 24px;
+		padding: 28px 0;
+		@extend %text-base;
+
+		&.text-center {
+			@extend %center-text;
+		}
+
+		@include respond-to(breakpoint(padL)){
+			float: none;
+			text-align: center;
+		}
+
+		&-16 {
+			font-size: 16px;
+			padding: 32px 0;
+
+			&.text-center {
+				@extend %center-text;
+			}
+		}
+
+		&-18 {
+			font-size: 18px;
+			padding: 31px 0;
+			
+			&.text-center {
+				@extend %center-text;
+			}
+
+		}
+
+		&-32 {
+			font-size: 32px;
+			padding: 24px 0;
+
+			&.text-center {
+				@extend %center-text;
+			}
+		}
+	}
+}

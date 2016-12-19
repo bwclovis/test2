@@ -1,0 +1,168 @@
+.s-banner-container {
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1280px; }
+
+.s-banner_text {
+  float: left;
+  line-height: 1; }
+
+.s-banner.has-shadow, .s-banner_black.has-shadow, .s-banner_gray.has-shadow {
+  box-shadow: 0 2px 4px 0 #A9A9A9; }
+
+.s-banner .btn {
+  float: right;
+  min-width: 200px;
+  border: 1px solid;
+  border-radius: 28px;
+  padding: 16px 26px;
+  text-align: center;
+  margin: 14px 10px;
+  text-decoration: none;
+  transition: all .3s ease-in-out; }
+
+.s-banner_text.text-center, .s-banner_text-16.text-center, .s-banner_text-18.text-center, .s-banner_text-32.text-center {
+  float: none;
+  text-align: center; }
+
+.s-banner {
+  background: #fff;
+  color: #333; }
+@media only screen and (max-width: 768px) {
+  .s-banner-container {
+    width: 100%; } }
+.s-banner.has-border {
+  border-bottom: 1px solid #d0d8de;
+  border-top: 1px solid #d0d8de; }
+.s-banner.has-border_bottom {
+  border-bottom: 1px solid #d0d8de; }
+.s-banner.has-border_top {
+  border-top: 1px solid #d0d8de; }
+.s-banner._fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 700; }
+.s-banner .btn {
+  background: #0272B6;
+  border-color: #0272B6;
+  color: #fff; }
+.s-banner .btn:hover {
+  background: #00619a;
+  border-color: #00619a; }
+@media only screen and (max-width: 1024px) {
+  .s-banner .btn {
+    float: none;
+    margin: 0 auto 26px;
+    display: block;
+    width: 25%; } }
+.s-banner .btn-ghost {
+  border-color: #000;
+  color: #000;
+  background: transparent; }
+.s-banner .btn-ghost:hover {
+  background: transparent;
+  border-color: #00619a;
+  color: #00619a; }
+.s-banner .btn-ghost_blue {
+  color: #0272B6;
+  border-color: #0272B6;
+  background: transparent; }
+.s-banner .btn-ghost_blue:hover {
+  background: transparent;
+  border-color: #00619a;
+  color: #00619a; }
+.s-banner .btn-blank {
+  border-color: transparent;
+  background: transparent;
+  color: #0272B6;
+  margin: 12px 10px 0px;
+  padding: 14px 0 0;
+  min-width: 0; }
+.s-banner .btn-blank:hover {
+  text-decoration: underline;
+  color: #00619a;
+  background: transparent;
+  border: none; }
+@media only screen and (max-width: 1024px) {
+  .s-banner .btn {
+    margin: 12px auto 26px; } }
+.s-banner_black {
+  background: #000;
+  color: #fff; }
+.s-banner_black h2, .s-banner_black h3 {
+  color: #fff; }
+.s-banner_black .btn {
+  background: #0b7dbb;
+  border-color: #0b7dbb;
+  color: #fff; }
+.s-banner_black .btn-ghost {
+  color: #fff;
+  border-color: #fff;
+  background: transparent; }
+.s-banner_black .btn-ghost_blue {
+  color: #2b9cd8;
+  border-color: #2b9cd8;
+  background: transparent; }
+.s-banner_black .btn-blank {
+  color: #2b9cd8;
+  border-color: transparent;
+  min-width: 0;
+  background: transparent; }
+.s-banner_black .btn-blank:hover {
+  text-decoration: underline;
+  color: #00619a;
+  background: transparent;
+  border: none; }
+.s-banner_gray {
+  background: #eef1f3;
+  color: #000; }
+.s-banner_gray .btn {
+  background: #0272B6;
+  border-color: #0272B6;
+  color: #fff; }
+.s-banner_gray .btn:hover {
+  background: #00619a;
+  border-color: #00619a; }
+.s-banner_gray .btn-ghost {
+  border-color: #000;
+  color: #000;
+  background: transparent; }
+.s-banner_gray .btn-ghost:hover {
+  background: transparent; }
+.s-banner_gray .btn-ghost_blue {
+  background: transparent;
+  color: #0272B6; }
+.s-banner_gray .btn-ghost_blue:hover {
+  background: transparent;
+  color: #00619a; }
+.s-banner_gray .btn-blank {
+  border-color: transparent;
+  color: #0272B6;
+  min-width: 0;
+  background: transparent; }
+.s-banner_gray .btn-blank:hover {
+  text-decoration: underline;
+  background: transparent;
+  color: #00619a;
+  border: none; }
+.s-banner_text {
+  font-size: 24px;
+  padding: 28px 0; }
+@media only screen and (max-width: 1024px) {
+  .s-banner_text {
+    float: none;
+    text-align: center; } }
+.s-banner_text-16 {
+  font-size: 16px;
+  padding: 32px 0; }
+.s-banner_text-18 {
+  font-size: 18px;
+  padding: 31px 0; }
+.s-banner_text-32 {
+  font-size: 32px;
+  padding: 24px 0; }
+
+/*# sourceMappingURL=skinny-banner.css.map */

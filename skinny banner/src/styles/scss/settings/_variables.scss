@@ -1,0 +1,24 @@
+// COLOR SETTINGS
+
+$gray      : #eef1f3;
+$blue-sky   : #0272B6;
+$blue-ocean : #00619a;
+$blue-deep : #0b7dbb;
+$blue-genie: #2b9cd8;
+
+//MAP OF DEFAULT BREAKPOINTS USED IN BREAKPOINT MIXIN AND at-breakpoint FUNCTION
+$breaks:(
+	full : 1920px,
+	padL : 1024px,
+	padP : 768px,
+	tab-sm : 600px,
+	six-plus : 414px,
+	six : 375px,
+	phone : 320px
+);
+
+//DEFAULT SETTINGS
+$default-padding: 50px;
+$max-width: 1440px;
+
+
