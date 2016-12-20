@@ -1,8 +1,14 @@
 # NGBF SKINNY BANNER
 
 * Code can be found  - /sitecore/content/ngbf_comcast_com/Content/Modules/HTML Content/FED/Skinny Banner Template
-* CSS is - <link href="/~/Media/4E1384D72D1F412698A86D1D18CA8D15.ashx" rel='stylesheet'>
-* JavaScript for sticky functionality - <script src="/~/Media/16D815107FF549B59914734AE08EC18E.ashx"></script>
+* CSS is - ```<link href="/~/Media/4E1384D72D1F412698A86D1D18CA8D15.ashx" rel='stylesheet'>```
+* JavaScript for sticky functionality - ```<script src="/~/Media/16D815107FF549B59914734AE08EC18E.ashx"></script>```
+
+## Developer Notes - 
+* Markup is located Public > index.html
+* Production CSS is located Public > skinny-banner.css
+* Sass file is located src/styles/scss/components/skinny-banner.scss
+* Sass files rely on items in settings folder.
 
 ** PLEASE MAKE A COPY OF BANNER AND ADD IT TO PAGE – This is meant to be its own component/module. **
 
