@@ -1,0 +1,119 @@
+/* line 5, ../src/styles/scss/_layout.scss */
+.countdown-clock {
+  display: inline-block;
+  background: #000;
+  width: 100%;
+  margin-top: 30vh;
+  font-size: 1.25em;
+  color: #fff; }
+/* line 13, ../src/styles/scss/_layout.scss */
+.countdown-clock .clock-container {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0; }
+/* line 19, ../src/styles/scss/_layout.scss */
+.countdown-clock .icon-container {
+  display: none; }
+/* line 22, ../src/styles/scss/_layout.scss */
+.countdown-clock p {
+  color: #fff;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0;
+  vertical-align: middle;
+  margin: 0; }
+/* line 31, ../src/styles/scss/_layout.scss */
+.countdown-clock p._hidden {
+  display: none; }
+/* line 35, ../src/styles/scss/_layout.scss */
+.countdown-clock div {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: text-top; }
+/* line 40, ../src/styles/scss/_layout.scss */
+.countdown-clock div > span {
+  display: inline-block;
+  vertical-align: middle; }
+/* line 46, ../src/styles/scss/_layout.scss */
+.countdown-clock .time {
+  color: green; }
+/* line 49, ../src/styles/scss/_layout.scss */
+.countdown-clock .smalltext {
+  font-size: 1rem;
+  color: #fff; }
+/* line 54, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles {
+  padding: 20px 0; }
+/* line 57, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles .time-container {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  width: 34px;
+  height: 34px;
+  background: #00B358;
+  border: 1px solid #00B358;
+  padding: 10px 10px;
+  margin-right: 6px; }
+/* line 68, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles .time-container span {
+  display: block;
+  line-height: 1.2; }
+/* line 72, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles .time-container .time {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; }
+/* line 78, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles .time-container .smalltext {
+  font-size: 14px; }
+/* line 83, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles ._expired {
+  background: transparent;
+  border: 1px solid #fff; }
+/* line 88, ../src/styles/scss/_layout.scss */
+.countdown-clock-circles ._expiring {
+  background: #F5A623;
+  border: 1px solid #F5A623; }
+/* line 95, ../src/styles/scss/_layout.scss */
+.countdown-clock-icon .clock-container {
+  width: 450px; }
+/* line 98, ../src/styles/scss/_layout.scss */
+.countdown-clock-icon .time {
+  color: #2b9cd8;
+  vertical-align: baseline;
+  padding-right: 2px; }
+/* line 104, ../src/styles/scss/_layout.scss */
+.countdown-clock-icon .smalltext {
+  font-size: 12px;
+  vertical-align: 1px;
+  margin-left: -5px;
+  letter-spacing: .05em;
+  color: #2b9cd8; }
+/* line 112, ../src/styles/scss/_layout.scss */
+.countdown-clock-icon .icon-container {
+  display: inline-block;
+  background: url("http://www.fillmurray.com/54/54");
+  height: 44px;
+  width: 44px;
+  margin: 0 10px;
+  vertical-align: middle; }
+
+/* line 123, ../src/styles/scss/_layout.scss */
+.screen-reader-text {
+  position: absolute !important;
+  display: block;
+  visibility: visible;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0px, 0px, 0px, 0px);
+  /* deprecated */
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px); }
+
+/*# sourceMappingURL=style.css.map */
